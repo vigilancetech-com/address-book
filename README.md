@@ -1,6 +1,6 @@
 # address-book
 
-A [Hoplon][3] project designed to...well, that part is up to you.
+A [Hoplon][3] project designed to... test the new cider-jack-in-cljs
 
 ## Dependencies
 
