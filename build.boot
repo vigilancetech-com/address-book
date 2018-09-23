@@ -18,8 +18,10 @@
 (def +version+ "0.0.1-SNAPSHOT")
 
 (task-options! push {:repo "clojars"}
-               pom {:project 'org.clojars.viglancetech/address-book
-                   :version +version+})
+               pom {:project 'viglancetech/address-book
+                    :scm {:url "http://github.com/vigilancetech-com/address-book"}
+                    :url "http://github.com/vigilancetech-com/address-book"
+                    :version +version+})
 
 (require
   '[adzerk.boot-cljs         :refer [cljs]]
