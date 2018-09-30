@@ -1,0 +1,15 @@
+{:dependencies
+ [
+  [org.clojure/clojurescript "1.10.339"]
+  [org.clojure/clojure "1.9.0"]
+  [hoplon "7.3.0-SNAPSHOT"]
+  ]
+
+ :source-paths
+ ["src"]
+
+ :builds
+ {:app {:target :browser
+        :output-dir "public/js"
+        :asset-path "/js"
+        :modules {:main {:entries [my.app]}}}}}
